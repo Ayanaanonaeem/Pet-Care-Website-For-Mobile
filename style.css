@@ -28,7 +28,7 @@
     .nav{
         width: 1900px;
         /* border: 1px solid rgb(0, 0, 0); */
-       padding-left:25px;
+       padding-left:15px;
        background-color: rgb(233,233,231);
     }
     .sub1 ul li {
@@ -232,20 +232,20 @@
     }
     }
     .container2{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
         height: 800px;
         display: flex;
-        margin-top: 460px;
+        margin-top: 500px;
         background-color: rgb(248,249,250)
        
   
     }
     .left{
-      border: 1px solid rgb(0, 0, 0);
+      /* border: 1px solid rgb(0, 0, 0); */
       width: 100%;
       display: flex;
-      align-items: start;
+      flex-direction: column;
       /* flex-direction: column-reverse; */
       height: 800px;
   
@@ -259,12 +259,14 @@
       /* border: 1px solid rgb(0, 0, 0); */
       width: 50%;
       padding-top:260px ;
-      padding-left: 100px;
+      /* padding-left: 100px; */
       
     }
     .text1{
       color:  rgb(253,76,130);
-      font-size: 18px;
+      padding-top: 20px;
+      font-size: 28px;
+      text-align: center;
     }
     .text2{
       font-weight: bold;
@@ -275,4 +277,210 @@
       line-height: 30px;
       color: rgb(179,179,180);
     }
+    .container3{
+        height: 300px;
+        /* border: 1px solid red; */
+        padding-top: 50px;
+        margin-top: 300px;
+        ;
+      }
+      .para{
+        color:  rgb(253,76,130);
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .in{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 100px;
+        padding-top: 20px;
+      }
+      .in1{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 100px;
+        
+      }
+      input[type=text]{
+        height: 50px;
+        width: 250px;
+        margin-top: 10px;
+        padding-left: 10px;
+      }
+      input[type=date]{
+        height: 50px;
+        width: 250px;
+        padding-left: 10px;
+        margin-top: 10px;
+      }
+      input[type=time]{
+        height: 50px;
+        width: 250px;
+        padding-left: 10px;
+        margin-top: 10px;
+      }
+      textarea{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-right: 10px;
+      }
+      .new{
+        height: 50px;
+        width: 265px;
+        padding-left: 10px;
+        background-color: rgb(145,194,53); ;
+        color: white;
+        border: 1px solid rgb(145,194,53);
+      }
+      .new:hover{
+        background-color: white;
+        color:rgb(145,194,53) ;
+        border: 1px solid rgb(145,194,53);;
+      }
+      .container4{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 2000px;
+        padding-top: 100px;
+        background-color: rgb(248,249,250);
+        margin-top: 400px;
+        display: flex;
+        flex-direction: column;
     
+      }
+      .q{
+        text-align: center;
+        color:rgb(253,76,130) ;
+        letter-spacing: 10px;
+      }
+      .w{
+        text-align: center;
+      }
+    .e{
+      height: 450px;
+      width: 100%;
+      /* border: 2px solid green; */
+      padding-top: 100px;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+    }
+    .r{
+      width: 280px;
+      background-color: white;
+      /* border: 3px solid black; */
+      height: 300px;
+      margin-bottom: 170px;
+      /* margin-top: 200px; */
+      
+      
+    }
+    .r:hover{
+      background-color: rgb(145,194,53);
+      color: white;
+      .r2 h3{
+        color: white;
+      }
+      .r2 p{
+        color: white;
+      }
+      .icon1{
+        color: white;
+      }
+      
+    }
+    
+    
+    .r1{
+      width: 100%;
+      height: 100px;
+      position: relative;
+      bottom: 100px;
+      /* margin-bottom: 10px; */
+      /* border: 1px solid red; */
+      /* border-radius: 50%; */
+    }
+    .r1-sub{
+      width: 70%;
+      margin: auto;
+      height: 100px;
+      /* border: 1px solid rgb(0, 0, 0); */
+      border-radius: 80%;
+     padding-bottom: 100px;
+     background-image: url('https://preview.colorlib.com/theme/petvet/images/doc-1.jpg.webp');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+     
+    }
+    .r2-sub{
+        width: 70%;
+        margin: auto;
+        /* margin-top: 100px; */
+        height: 100px;
+      /* border: 1px solid rgb(0, 0, 0); */
+      border-radius: 80%;
+     padding-bottom: 100px;
+     background-image: url('https://preview.colorlib.com/theme/petvet/images/doc-2.jpg.webp');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    .r3-sub{
+        width: 70%;
+        margin: auto;
+        height: 100px;
+      /* border: 1px solid rgb(0, 0, 0); */
+      border-radius: 80%;
+     padding-bottom: 100px;
+     background-image: url('https://preview.colorlib.com/theme/petvet/images/doc-3.jpg.webp');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    .r4-sub{
+        width: 70%;
+        margin: auto;
+        height: 100px;
+      /* border: 1px solid rgb(0, 0, 0); */
+      border-radius: 80%;
+     padding-bottom: 100px;
+     background-image: url('https://preview.colorlib.com/theme/petvet/images/doc-4.jpg.webp');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    /*  */
+    
+    .h3{
+      text-align: center;
+      font-size: 23px;
+    }
+    .p3{
+      text-align: center;
+      color: rgb(253,76,130);
+      font-weight: bolder;
+    }
+    .e{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    /* textarea{
+      padding-left: 10px;
+      padding-top: 10px;
+    } */
+    .icons{
+     text-align: center;
+     margin-top: 5px;
+     
+    }
+    .icon1{
+      color: rgb(253,76,130);
+      font-size: 35px;
+      
+    }
